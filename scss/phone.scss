@@ -1,0 +1,68 @@
+///////////   Navbar Section   ///////////
+.get_started{
+  display: none;
+}
+
+////////////  Header Section   ////////////
+.title{
+  font-size: 30px;
+}
+header{
+  height: 1700px;
+}  
+.header_animation {
+    margin-top: -100px;
+}
+.header_content {
+  top: 18rem;
+  height: 1200px;
+}
+.header_intro {
+  height: 25% !important;
+  h1 {
+    width: 13rem;
+    font-size: 2rem;
+  }
+  p{
+      font-size: 0.9rem;
+  }
+}
+.header_tickets{
+  height: 75% !important;
+  position: static;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  text-align: center;
+}
+.header_ticket_1{
+  top: 0;
+  left: auto;
+  margin: auto;  
+}
+.header_ticket_1,
+.header_ticket_2{
+  position: static !important;
+  width: 100%;
+}
+
+////////////////   Projects Section   //////////////
+.projects_imgs{
+  .item{
+    height: 800px;
+    .over_img{
+      width: 100% !important;
+      height: 50% !important;
+    }
+    .over_data{
+      top: 0;
+      width: 100% !important;
+      height: 40% !important;
+      
+      .data{
+        justify-content: start !important;
+      }
+    }
+  }
+}

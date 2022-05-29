@@ -1,0 +1,62 @@
+.container {
+  max-width: 95%;
+}
+
+header {
+  height: 1300px;
+}
+
+.header_animation {
+  margin-top: -400px;
+}
+
+.header_content {
+  top: 17rem;
+  height: 1000px;
+}
+
+.header_intro h1 {
+  width: 20rem;
+  font-size: 2rem;
+}
+
+.header_ticket_1,
+.header_ticket_2 {
+  width: 40%;
+}
+
+.header_ticket_1 h4,
+.header_ticket_2 h4 {
+  font-size: 1rem;
+}
+
+.projects_imgs .item {
+  height: 800px;
+}
+
+.projects_imgs .item .over_img {
+  width: 100% !important;
+  height: 50% !important;
+}
+
+.projects_imgs .item .over_data {
+  top: 0;
+  width: 100% !important;
+  height: 40% !important;
+}
+
+.projects_imgs .item .over_data .data {
+  -webkit-box-pack: start !important;
+      -ms-flex-pack: start !important;
+          justify-content: start !important;
+}
+
+.ticket {
+  width: 60%;
+  margin: auto;
+}
+
+.client {
+  width: 60%;
+  margin: auto;
+}

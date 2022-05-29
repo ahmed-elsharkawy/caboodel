@@ -1,0 +1,58 @@
+.container{
+  max-width: 95%;
+}
+////////////  Header Section   ////////////
+header{
+  height: 1300px;
+}
+.header_content {
+  top: 17rem;
+  height: 1000px;
+}
+.header_intro {
+  h1 {
+    width: 20rem;
+    font-size: 2rem;
+  }
+}
+.header_ticket_1,
+.header_ticket_2{
+  width: 43%;
+  h4{
+      font-size: 1rem;
+  }
+}
+
+////////////////   Projects Section   //////////////
+.projects_imgs{
+  .item{
+    height: 800px;
+    .over_img{
+      width: 100% !important;
+      height: 50% !important;
+    }
+    .over_data{
+      top: 0;
+      width: 100% !important;
+      height: 40% !important;
+      
+      .data{
+        justify-content: start !important;
+      }
+    }
+  }
+}
+
+////////////////   price ticket     ////////////////
+.ticket{
+  width: 60%;
+  margin: auto;
+}
+
+
+////////////////   price ticket     ////////////////
+.client{
+  width: 60%;
+  margin: auto;
+
+}
